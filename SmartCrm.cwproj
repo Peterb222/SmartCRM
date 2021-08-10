@@ -39,10 +39,10 @@
     <Library Include="CheckOffDim.ICO" />
     <Library Include="CheckOn.ICO" />
     <Library Include="CheckOnDim.ICO" />
-    <Library Include="ClaAnyScreen.lib" />
-    <Library Include="ClaAnyScreenNet.lib" />
+    <Library Include="claanyscreen.lib" />
+    <Library Include="claanyscreennet.lib" />
     <Library Include="clanet.lib" />
-    <Library Include="CLAWE.Lib" />
+    <Library Include="clawe.lib" />
     <Library Include="invulscherm.lib" />
     <Library Include="QkLoad.ico" />
     <Library Include="QkQBE.ico" />

@@ -8,7 +8,7 @@
     <AssemblyName>selecteerschermen</AssemblyName>
     <OutputName>selecteerschermen</OutputName>
     <CWOutputType>Exe</CWOutputType>
-    <DefineConstants>StringTheoryLinkMode=&gt;0%3bStringTheoryDllMode=&gt;1%3bSelfServiceLinkMode=&gt;0%3bSelfServiceDllMode=&gt;1%3b_ABCDllMode_=&gt;1%3b_ABCLinkMode_=&gt;0</DefineConstants>
+    <DefineConstants>_AnyScreenPresent_=&gt;1%3bStringTheoryLinkMode=&gt;0%3bStringTheoryDllMode=&gt;1%3bSelfServiceLinkMode=&gt;0%3bSelfServiceDllMode=&gt;1%3b_ABCDllMode_=&gt;1%3b_ABCLinkMode_=&gt;0</DefineConstants>
     <stack_size>16384</stack_size>
     <CopyCore>True</CopyCore>
     <Model>Dll</Model>
@@ -36,10 +36,13 @@
     <Library Include="ALGEM.LIB" />
     <Library Include="bestanden.lib" />
     <Library Include="C%25V%25DF%25X%25.LIB" />
+    <Library Include="C%25V%25OLE%25X%25%25L%25.LIB" />
     <Library Include="CheckOff.ICO" />
     <Library Include="CheckOffDim.ICO" />
     <Library Include="CheckOn.ICO" />
     <Library Include="CheckOnDim.ICO" />
+    <Library Include="ClaAnyScreen.lib" />
+    <Library Include="ClaAnyScreenNet.lib" />
     <Library Include="CLAWE.Lib" />
     <FileDriver Include="ASCII" />
     <FileDriver Include="DOS" />
@@ -108,6 +111,26 @@
     <Compile Include="selecteerschermen020.clw">
       <Generated>true</Generated>
     </Compile>
+    <None Include="7z.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="AnyScreenPDF.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="ClaAnyScreen.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="ClaAnyScreenNet.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
     <None Include="clawe.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <Generated>True</Generated>

@@ -8,7 +8,7 @@
     <AssemblyName>ALGEM</AssemblyName>
     <OutputName>ALGEM</OutputName>
     <CWOutputType>Exe</CWOutputType>
-    <DefineConstants>StringTheoryLinkMode=&gt;0%3bStringTheoryDllMode=&gt;1%3bSelfServiceLinkMode=&gt;0%3bSelfServiceDllMode=&gt;1%3bNETTALKLOG=&gt;1%3b_ODDJOB_=&gt;0%3b_ABCDllMode_=&gt;1%3b_ABCLinkMode_=&gt;0%3b_NetTalkDllMode_=&gt;1%3b_NetTalkLinkMode_=&gt;0</DefineConstants>
+    <DefineConstants>_AnyScreenPresent_=&gt;1%3bStringTheoryLinkMode=&gt;0%3bStringTheoryDllMode=&gt;1%3bSelfServiceLinkMode=&gt;0%3bSelfServiceDllMode=&gt;1%3bNETTALKLOG=&gt;1%3b_ODDJOB_=&gt;0%3b_ABCDllMode_=&gt;1%3b_ABCLinkMode_=&gt;0%3b_NetTalkDllMode_=&gt;1%3b_NetTalkLinkMode_=&gt;0</DefineConstants>
     <Model>Dll</Model>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -27,6 +27,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Library Include="BESTANDEN.LIB" />
+    <Library Include="C%25V%25OLE%25X%25%25L%25.LIB" />
+    <Library Include="ClaAnyScreen.lib" />
+    <Library Include="ClaAnyScreenNet.lib" />
     <Library Include="clanet.lib" />
     <Library Include="CLAWE.Lib" />
     <FileDriver Include="DOS" />
@@ -36,6 +39,26 @@
     <Compile Include="ALGEM001.clw">
       <Generated>true</Generated>
     </Compile>
+    <None Include="7z.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="AnyScreenPDF.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="ClaAnyScreen.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="ClaAnyScreenNet.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
     <None Include="clawe.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <Generated>True</Generated>

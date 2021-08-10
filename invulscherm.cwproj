@@ -9,7 +9,7 @@
     <OutputName>invulscherm</OutputName>
     <CWOutputType>Exe</CWOutputType>
     <Model>Dll</Model>
-    <DefineConstants>StringTheoryLinkMode=&gt;0%3bStringTheoryDllMode=&gt;1%3bNETTALKLOG=&gt;1%3b_ODDJOB_=&gt;0%3bSelfServiceLinkMode=&gt;0%3bSelfServiceDllMode=&gt;1%3b_ABCDllMode_=&gt;1%3b_ABCLinkMode_=&gt;0%3b_NetTalkDllMode_=&gt;1%3b_NetTalkLinkMode_=&gt;0</DefineConstants>
+    <DefineConstants>_AnyScreenPresent_=&gt;1%3bStringTheoryLinkMode=&gt;0%3bStringTheoryDllMode=&gt;1%3bNETTALKLOG=&gt;1%3b_ODDJOB_=&gt;0%3bSelfServiceLinkMode=&gt;0%3bSelfServiceDllMode=&gt;1%3b_ABCDllMode_=&gt;1%3b_ABCLinkMode_=&gt;0%3b_NetTalkDllMode_=&gt;1%3b_NetTalkLinkMode_=&gt;0</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>True</DebugSymbols>
@@ -28,6 +28,9 @@
   <ItemGroup>
     <Library Include="Bestanden.lib" />
     <Library Include="C%25V%25DF%25X%25.LIB" />
+    <Library Include="C%25V%25OLE%25X%25%25L%25.LIB" />
+    <Library Include="ClaAnyScreen.lib" />
+    <Library Include="ClaAnyScreenNet.lib" />
     <Library Include="clanet.lib" />
     <Library Include="CLAWE.Lib" />
     <Library Include="Selecteerschermen.lib" />
@@ -47,6 +50,26 @@
     <Compile Include="invulscherm002.clw">
       <Generated>true</Generated>
     </Compile>
+    <None Include="7z.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="AnyScreenPDF.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="ClaAnyScreen.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="ClaAnyScreenNet.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
     <None Include="clawe.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <Generated>True</Generated>

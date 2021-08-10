@@ -37,6 +37,14 @@ ___    Clamss.dll - Microsoft SQL
 ___    Claodb.dll - ODBC
 ___    Claasc.dll - ASCII (Text)
 
+  The follow files are required by AnyScreen:
+-------------------------------------------------------
+___    ClaAnyScreen.DLL    - AnyScreen Runtime Library
+___    ClaAnyScreenNet.DLL - AnyScreen Socket Library
+___    7z.exe              - Compression program used by AnyScreen
+___    ClaOLE.DLL - CW 32 Bit OLE Support DLL
+___    ClaDOS.DLL - CW 32 Bit DOS Support DLL
+___    ClaASC.DLL - CW 32 Bit DOS Support DLL
   ___     ClaDF.DLL
   ___    ZLIBWAPI.DLL
   
