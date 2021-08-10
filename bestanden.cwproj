@@ -1,0 +1,118 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{EB7B6B64-451A-4A28-83C1-7B97E2B44549}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Win32</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>bestanden</RootNamespace>
+    <AssemblyName>bestanden</AssemblyName>
+    <OutputName>bestanden</OutputName>
+    <CWOutputType>Exe</CWOutputType>
+    <DefineConstants>NETTALKLOG=&gt;1%3b_ODDJOB_=&gt;0%3bStringTheoryLinkMode=&gt;1%3bStringTheoryDllMode=&gt;0%3bMD5=&gt;0%3bSelfServiceLinkMode=&gt;1%3bSelfServiceDllMode=&gt;0%3bMakeoverLinkMode=&gt;1%3bMakeoverDllMode=&gt;0%3b_ABCDllMode_=&gt;0%3b_ABCLinkMode_=&gt;1%3b_NetTalkDllMode_=&gt;0%3b_NetTalkLinkMode_=&gt;1</DefineConstants>
+    <Model>Dll</Model>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <vid>full</vid>
+    <check_stack>True</check_stack>
+    <check_index>True</check_index>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <vid>off</vid>
+    <check_stack>False</check_stack>
+    <check_index>False</check_index>
+  </PropertyGroup>
+  <ItemGroup>
+    <FileDriver Include="ASCII" />
+    <FileDriver Include="BASIC" />
+    <FileDriver Include="DOS" />
+    <FileDriver Include="MEMORY" />
+    <FileDriver Include="MSSQL" />
+    <FileDriver Include="ODBC" />
+    <FileDriver Include="TOPSPEED" />
+    <Library Include="C%25V%25DF%25X%25.LIB" />
+    <Library Include="clanet.lib" />
+    <Library Include="CLAWE.Lib" />
+    <Library Include="hand.cur" />
+    <Compile Include="bestanden.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden002.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden003.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="BESTANDEN_BC.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BC0.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BC1.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BC2.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BC3.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BC4.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BC5.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BC6.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BC7.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BC8.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BC9.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BCA.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BCB.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BCC.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BCD.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BCE.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BCF.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="bestanden_BCG.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="CWUtil.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <None Include="clawe.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="zlibwapi.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+  </ItemGroup>
+  <Import Project="$(ClarionBinPath)\SoftVelocity.Build.Clarion.targets" />
+</Project>

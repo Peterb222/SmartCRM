@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Clarion 2.1.0.2447
+Project("{12B76EC0-1D7B-4FA7-A7D0-C524288B48A1}") = "SmartCrm", "SmartCrm.cwproj", "{C21058BA-97A0-4FCB-80AA-183E6AC5EC47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2150E333-8FDC-42A3-9474-1A3956D46DE8}"
+	ProjectSection(SolutionItems) = postProject
+		SmartCrm.app = SmartCrm.app
+		bestanden.app = bestanden.app
+		selecteerschermen.app = selecteerschermen.app
+		ALGEM.app = ALGEM.app
+		invulscherm.app = invulscherm.app
+	EndProjectSection
+EndProject
+Project("{12B76EC0-1D7B-4FA7-A7D0-C524288B48A1}") = "bestanden", "bestanden.cwproj", "{EB7B6B64-451A-4A28-83C1-7B97E2B44549}"
+EndProject
+Project("{12B76EC0-1D7B-4FA7-A7D0-C524288B48A1}") = "selecteerschermen", "selecteerschermen.cwproj", "{15E2A18D-ECA5-4277-975E-4B171D6252E6}"
+EndProject
+Project("{12B76EC0-1D7B-4FA7-A7D0-C524288B48A1}") = "ALGEM", "ALGEM.cwproj", "{D4D9BD98-19BC-4EC6-B372-98E179A1CBAB}"
+EndProject
+Project("{12B76EC0-1D7B-4FA7-A7D0-C524288B48A1}") = "invulscherm", "invulscherm.cwproj", "{1A5228DC-ABDF-4A0F-95CC-852C05C22BA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C21058BA-97A0-4FCB-80AA-183E6AC5EC47}.Debug|Win32.Build.0 = Debug|Win32
+		{C21058BA-97A0-4FCB-80AA-183E6AC5EC47}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C21058BA-97A0-4FCB-80AA-183E6AC5EC47}.Release|Win32.Build.0 = Release|Win32
+		{C21058BA-97A0-4FCB-80AA-183E6AC5EC47}.Release|Win32.ActiveCfg = Release|Win32
+		{EB7B6B64-451A-4A28-83C1-7B97E2B44549}.Debug|Win32.Build.0 = Debug|Win32
+		{EB7B6B64-451A-4A28-83C1-7B97E2B44549}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EB7B6B64-451A-4A28-83C1-7B97E2B44549}.Release|Win32.Build.0 = Release|Win32
+		{EB7B6B64-451A-4A28-83C1-7B97E2B44549}.Release|Win32.ActiveCfg = Release|Win32
+		{15E2A18D-ECA5-4277-975E-4B171D6252E6}.Debug|Win32.Build.0 = Debug|Win32
+		{15E2A18D-ECA5-4277-975E-4B171D6252E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{15E2A18D-ECA5-4277-975E-4B171D6252E6}.Release|Win32.Build.0 = Release|Win32
+		{15E2A18D-ECA5-4277-975E-4B171D6252E6}.Release|Win32.ActiveCfg = Release|Win32
+		{D4D9BD98-19BC-4EC6-B372-98E179A1CBAB}.Debug|Win32.Build.0 = Debug|Win32
+		{D4D9BD98-19BC-4EC6-B372-98E179A1CBAB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D4D9BD98-19BC-4EC6-B372-98E179A1CBAB}.Release|Win32.Build.0 = Release|Win32
+		{D4D9BD98-19BC-4EC6-B372-98E179A1CBAB}.Release|Win32.ActiveCfg = Release|Win32
+		{1A5228DC-ABDF-4A0F-95CC-852C05C22BA4}.Debug|Win32.Build.0 = Debug|Win32
+		{1A5228DC-ABDF-4A0F-95CC-852C05C22BA4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A5228DC-ABDF-4A0F-95CC-852C05C22BA4}.Release|Win32.Build.0 = Release|Win32
+		{1A5228DC-ABDF-4A0F-95CC-852C05C22BA4}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+EndGlobal
